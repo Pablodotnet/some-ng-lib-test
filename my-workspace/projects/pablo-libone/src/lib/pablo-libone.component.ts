@@ -2,11 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'lib-pablo-libone',
-  template: `
-    <p>
-      pablo-libone works!
-    </p>
-  `,
+  templateUrl: './pablo-libone.component.html',
   styles: []
 })
 export class PabloLiboneComponent implements OnInit {
